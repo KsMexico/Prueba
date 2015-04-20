@@ -3,10 +3,10 @@
 Una vez instalado GIT, debes configurarlo:
 
 git config --global user.name “Christian”
-git config –global user.email “christian.badillo@edgeboud.net”
+git config --global user.email “christian.badillo@edgeboud.net”
 
 Generando tu llave Publica SSH:
-ssh --keygen
+ssh-keygen
 
 Leyendo tu llave para copiarla a GitHub:
 cat ~/.ssh/id_rsa.pub
